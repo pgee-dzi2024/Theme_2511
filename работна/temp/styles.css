@@ -1,18 +1,41 @@
-/* Основни стилове */
+/* Основен стил */
 body {
-  background-color: #f8f9fa;
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  margin-left: 10px;
+header {
+    background-color: #4aa6ed;
 }
 
-.bg-light-blue {
-  background-color: #a7e0ff;
+.bg-info {
+    background-color: #8ed6f1 !important;
+    overflow: hidden;
 }
 
-h1.display-4 {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+/* Изображението на робота */
+img {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Отместване на навигационните връзки */
+nav .nav-link {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav .nav-link:hover {
+    color: #ffd700;
 }
