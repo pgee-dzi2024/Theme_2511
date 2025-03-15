@@ -29,10 +29,10 @@
             <!-- Главно меню -->
             <nav id="mainMenu" class="d-none d-md-flex">
                 <ul class="nav">
-                    <li class="nav-item"><a href="index.html" class="nav-link text-warning">Начало</a></li>
-                    <li class="nav-item"><a href="aboutus.html" class="nav-link text-warning">За нас</a></li>
-                    <li class="nav-item"><a href="projects.html" class="nav-link text-warning">Проекти</a></li>
-                    <li class="nav-item"><a href="contacts.html" class="nav-link text-warning">Контакти</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">Начало</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">За нас</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">Проекти</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">Контакти</a></li>
                 </ul>
             </nav>
         </div>
@@ -64,7 +64,7 @@
                         <img src="img/default.png" class="card-img-top" alt="Проект 1">
                         <div class="card-body">
                             <p>описание на проекта; описание на проекта...</p>
-                            <a href="project2.html" class="btn btn-primary">Виж повече...</a>
+                            <button class="btn btn-primary">Виж повече...</button>
                         </div>
                     </div>
                 </div>
@@ -74,10 +74,10 @@
                         <div class="card-header">
                             <h5 class="card-title">Проект 2 - тема</h5>
                         </div>
-                        <img src="img/default.png" class="card-img-top" alt="Проект 2">
+                        <img src="img/default.png" class="card-img-top" alt="Проект 1">
                         <div class="card-body">
                             <p>описание на проекта; описание на проекта...</p>
-                            <a href="project2.html" class="btn btn-primary">Виж повече...</a>
+                            <button class="btn btn-primary">Виж повече...</button>
                         </div>
                     </div>
                 </div>

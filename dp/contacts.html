@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект: Име на проекта</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-primary text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="Лого на ПГЕЕ" style="height: 50px;">
+            </div>
+
+            <!-- Бутон за мобилно меню -->
+            <button
+                class="navbar-toggler d-md-none border-0 bg-transparent text-light"
+                type="button"
+                id="menuToggle"
+            >
+                <i class="fas fa-bars fs-4"></i>
+            </button>
+
+            <!-- Главно меню -->
+            <nav id="mainMenu" class="d-none d-md-flex">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-warning">Начало</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">За нас</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link text-warning">Проекти</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-warning">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+<section class="py-5" id="contacts">
+    <div class="container">
+        <div class="row">
+            <!-- Празна колона отляво -->
+            <div class="col-lg-2"></div>
+
+            <!-- Контактна информация -->
+            <div class="col-lg-3">
+                <h3>Контакти</h3>
+                <p>Адрес: ул. България, гр. Банско</p>
+                <p>Email: example@gmail.com</p>
+                <p>Телефон: 0888 123 456</p>
+            </div>
+
+            <!-- Форма за обратна връзка -->
+            <div class="col-lg-5">
+                <h3>Обратна връзка</h3>
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Име</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Вашето име">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Имейл</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Вашият имейл">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Съобщение</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Вашето съобщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Изпрати</button>
+                </form>
+            </div>
+
+            <!-- Празна колона отдясно -->
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Колона 1 -->
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Клуб Програмиране</h5>
+                    <p>Кратко описание на клуба.</p>
+                    <div>
+                        <a href="#" class="text-light me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Колона 2 -->
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Контакти</h5>
+                    <p>Адрес: ул. България, гр. Банско</p>
+                    <p>e-mail: example@gmail.com</p>
+                    <p>Телефон: 0888 123 456</p>
+                </div>
+
+                <!-- Колона 3 -->
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Меню</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-menu-item">Начало</a></li>
+                        <li><a href="#" class="footer-menu-item">Проекти</a></li>
+                        <li><a href="#" class="footer-menu-item">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; Your Club Name. Всички права запазени. Дизайн от [Your Name].</p>
+        </div>
+    </footer>
+
+<button id="backToTop" class="back-to-top">
+    ⬆️
+</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
