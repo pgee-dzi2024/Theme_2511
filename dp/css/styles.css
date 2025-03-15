@@ -10,3 +10,39 @@ footer div {
     color: #fff;
     font-size: 14px;
 }
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
+/* Фон за секция Изяви */
+.events {
+    background-color: #f0f8ff; /* Светло синьо-сиво */
+}
+
+.bg-hero {
+    background-color: #0d6efd7d; /* Полупрозрачен син цвят */
+    --bs-bg-opacity: 1;
+}
+
+.footer-menu-item {
+    font-size: 14px; /* Размер на шрифта */
+    margin-left: 10px; /* Отстъп отляво */
+    display: block; /* Прави всяка връзка да е на нов ред */
+    color: #ffffff; /* Бял цвят за текст */
+    text-decoration: none; /* Премахва подчертаването на връзките */
+    transition: color 0.3s ease; /* Ефект при задържане */
+}
+
+.footer-menu-item:hover {
+    color: #ffd700; /* Промяна на цвета при задържане */
+}
