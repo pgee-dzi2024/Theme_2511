@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клуб Програмиране</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-primary text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="Лого на ПГЕЕ" style="height: 50px;">
+            </div>
+
+            <!-- Бутон за мобилно меню -->
+            <button
+                class="navbar-toggler d-md-none border-0 bg-transparent text-light"
+                type="button"
+                id="menuToggle"
+            >
+                <i class="fas fa-bars fs-4"></i>
+            </button>
+
+            <!-- Главно меню -->
+            <nav id="mainMenu" class="d-none d-md-flex">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-warning">Начало</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link text-warning">За нас</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link text-warning">Проекти</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="nav-link text-warning">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-hero py-5">
+        <div class="container d-md-flex align-items-center text-center text-md-start">
+            <div class="w-100">
+                <h1 class="fw-bold text-dark">КЛУБ ПРОГРАМИРАНЕ</h1>
+                <p class="text-primary fw-bold fs-4">подзаглавие</p>
+                <button class="btn btn-primary mt-3">Виж повече...</button>
+            </div>
+            <img src="img/programming.png" alt="Програмиране" class="img-fluid" style="max-height: 300px;">
+        </div>
+    </section>
+
+    <!-- Проекти -->
+    <section class="projects py-5">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4">Проекти:</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Проект 1 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Проект 1 - тема</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Проект 1">
+                        <div class="card-body">
+                            <p>описание на проекта; описание на проекта...</p>
+                            <a href="project1.html" class="btn btn-primary">Виж повече...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Проект 2 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Проект 2 - тема</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Проект 2">
+                        <div class="card-body">
+                            <p>описание на проекта; описание на проекта...</p>
+                            <a href="project2.html" class="btn btn-primary">Виж повече...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Проект 3 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Проект 3 - тема</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Проект 1">
+                        <div class="card-body">
+                            <p>описание на проекта; описание на проекта...</p>
+                            <button class="btn btn-primary">Виж повече...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Изяви (Събития) -->
+    <section class="events py-5" style="background-color: #f0f8ff;">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4">Изяви (събития):</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Изява 1 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Изява 1</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Изява 1">
+                        <div class="card-body">
+                            <p>Описание на изявата. Описание на изявата.</p>
+                            <button class="btn btn-primary">Виж повече...</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Изява 2 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Изява 2</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Изява 1">
+                        <div class="card-body">
+                            <p>Описание на изявата. Описание на изявата.</p>
+                            <button class="btn btn-primary">Виж повече...</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Изява 3 -->
+                <div class="col">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <h5 class="card-title">Изява 3</h5>
+                        </div>
+                        <img src="img/default.png" class="card-img-top" alt="Изява 1">
+                        <div class="card-body">
+                            <p>Описание на изявата. Описание на изявата.</p>
+                            <button class="btn btn-primary">Виж повече...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Технологии -->
+    <section class="technologies py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-4">Изучаваме и използваме:</h2>
+            <div class="row row-cols-2 row-cols-md-6 g-4">
+                <div class="col text-center">
+                    <img src="img/html-logo.png" alt="Python" style="height:100px;">
+                    <h5>HTML 5</h5>
+                </div>
+
+                <div class="col text-center">
+                    <img src="img/css-logo.png" alt="Python" style="height:100px;">
+                    <h5>CSS 3</h5>
+                </div>
+
+                <div class="col text-center">
+                    <img src="img/JavaScript-Logo.png" alt="Python" style="height:100px;">
+                    <h5>JavaScript</h5>
+                </div>
+
+                <div class="col text-center">
+                    <img src="img/python-logo.png" alt="Python" style="height:100px;">
+                    <h5>Python</h5>
+                </div>
+
+                <div class="col text-center">
+                    <img src="img/bootstrap-logo.png" alt="Bootstrap" style="height:100px;">
+                    <h5>Bootstrap</h5>
+                </div>
+
+                <div class="col text-center">
+                    <img src="img/django-logo.png" alt="Django" style="height:100px;">
+                    <h5>Django</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Колона 1 -->
+                <div class="col-md-5 text-center text-md-start">
+                    <h5>Клуб Програмиране</h5>
+                    <p>Кратко описание на клуба.</p>
+                    <div>
+                        <a href="#" class="text-light me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Колона 2 -->
+                <div class="col-md-5 text-center text-md-start">
+                    <h5>Контакти</h5>
+                    <p>Адрес: ул. България, гр. Банско</p>
+                    <p>e-mail: example@gmail.com</p>
+                    <p>Телефон: 0888 123 456</p>
+                </div>
+
+                <!-- Колона 3  - Бързи връзки -->
+                <div class="col-md-2 text-center text-md-start">
+                    <h5>Меню</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-menu-item">Начало</a></li>
+                        <li><a href="#" class="footer-menu-item">За нас</a></li>
+                        <li><a href="#" class="footer-menu-item">Проекти</a></li>
+                        <li><a href="#" class="footer-menu-item">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">&copy; Банско 2025 | Велизаа Сариева - Дипломен проект</p>
+        </div>
+    </footer>
+
+<button id="backToTop" class="back-to-top">
+    ⬆️
+</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hover-effect:hover { background: #28a745; color: white; transition: 0.3s; }
+  </style>
+</head>
+<body>
+  <div class="bg-info text-dark p-4 rounded hover-effect">
+    Текст с ефект при hover
+  </div>
+</body>
+</html>
+
+
